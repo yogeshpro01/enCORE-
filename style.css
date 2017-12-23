@@ -1,0 +1,62 @@
+::selection{
+	background : orange;
+	color: white;
+}
+
+body{
+	background: #fff;
+	color: #000;
+	
+	
+}
+.orange{
+	color: orange;
+	font-family: 'Raleway',verdana;
+	font-weight: 100;
+}
+.boxer{
+	 display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+	margin-top: 120px;
+	border: 2px solid #e0e0e0;
+	padding: 40px;
+}
+.text-box{
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #e0e0e0;
+	background: none;
+	color: #888;
+	font-family: 'Raleway',verdana;
+	transition: .3s;
+	cursor: pointer;
+
+}
+p{
+	padding: 0;
+	padding-bottom: 40px;
+	font-family: 'Roboto',verdana;
+	font-weight: 400;
+	font-size: 6rem;
+}
+.text-box:focus{
+	outline: none;
+	border: 1px solid orange;
+}
+.btns{
+	font-family: 'Raleway',verdana;
+	width: 300px;
+	color: white;
+	background: orange;
+	border: none;
+	padding: 10px;
+	margin-top: 20px;
+	transition: .3s;
+}
+.btns:hover{
+	transform: translateY(-3px);
+}
