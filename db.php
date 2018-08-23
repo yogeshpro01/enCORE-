@@ -1,5 +1,5 @@
 <?php
-  $db = mysqli_connect("gautams.ipagemysql.com", "core", "core@core", "core");
+  $db = mysqli_connect("", "", "", "");
   if($db->connect_error){
     header("location: chal.php");
   }  
